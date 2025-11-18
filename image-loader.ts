@@ -1,7 +1,7 @@
 // image-loader.ts
 
 // This MUST match the 'repoName' in your next.config.ts
-const repoName = 'studio'; 
+const repoName = ''; 
 
 export default function customLoader({ src, width, quality }: { src: string, width: number, quality?: number }) {
   
