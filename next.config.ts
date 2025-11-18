@@ -15,7 +15,7 @@ const nextConfig: NextConfig = {
    * Set the base path to your repository name.
    * This is only applied in production (when deploying to GitHub Pages).
    */
-  basePath: isProd ? `/${repoName}` : '',
+  basePath: '',
 
   // Your existing configurations
   typescript: {
