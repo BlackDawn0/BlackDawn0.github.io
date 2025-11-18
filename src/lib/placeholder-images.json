@@ -1,0 +1,40 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero",
+      "description": "A modern developer workspace at night",
+      "imageUrl": "https://images.unsplash.com/photo-1707528041466-83a325f01a3c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkZXZlbG9wZXIlMjB3b3Jrc3BhY2V8ZW58MHx8fHwxNzYzMzA3MTU2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "developer workspace"
+    },
+    {
+      "id": "asset5",
+      "description": "Git LFS setup guide with gitignore and gitattributes",
+      "imageUrl": "https://storage.googleapis.com/project-spark-308115.appspot.com/project/user-Oa4hSjQTsUe4bH4Tfiiw/images/wvvfrx7j.png",
+      "imageHint": "git lfs"
+    },
+    {
+      "id": "game1",
+      "description": "A scary monster in a dark hallway",
+      "imageUrl": "https://storage.googleapis.com/project-spark-308115.appspot.com/project/user-Oa4hSjQTsUe4bH4Tfiiw/images/k8z17hcl.png",
+      "imageHint": "horror game"
+    },
+    {
+      "id": "game2",
+      "description": "A vibrant and colorful abstract painting canvas",
+      "imageUrl": "https://images.unsplash.com/photo-1541512416146-3cf58d6b27cc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxhYnN0cmFjdCUyMHBhaW50aW5nfGVufDB8fHx8MTc2MzI1OTQyMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract painting"
+    },
+    {
+      "id": "game3",
+      "description": "A cartoon frog sitting on a lily pad in a pond",
+      "imageUrl": "https://images.unsplash.com/photo-1639741551354-1d99465ba4c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxmcm9nJTIwbGlseXBhZHxlbnwwfHx8fDE3NjMzMDcxNTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "frog lilypad"
+    },
+    {
+      "id": "game4",
+      "description": "A lush and orderly vegetable garden",
+      "imageUrl": "https://images.unsplash.com/photo-1591857177580-dc82b9ac4e1e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx2ZWdldGFibGUlMjBnYXJkZW58ZW58MHx8fHwxNzYzMzA0Mzk0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "vegetable garden"
+    }
+  ]
+}
