@@ -1,16 +1,13 @@
 // image-loader.ts
 
-// This MUST match the 'repoName' in your next.config.ts
-const repoName = ''; 
-
 export default function customLoader({ src, width, quality }: { src: string, width: number, quality?: number }) {
   
-  // For local development (npm run dev), images will work normally.
-  // For production (on GitHub Pages), it will add the repository name.
+  // If we are in development, use the default Next.js behavior
   if (process.env.NODE_ENV === 'development') {
     return `/_next/image?url=${encodeURIComponent(src)}&w=${width}&q=${quality || 75}`;
   }
 
-  // When deployed, this ensures images load from '/studio/image-path'
-  return `/${repoName}${src}?w=${width}&q=${quality || 75}`;
+  // FOR GITHUB PAGES (Root Domain)
+  // We just return the src directly because we are at the root (blackdawn0.github.io)
+  return `${src}?w=${width}&q=${quality || 75}`;
 }
